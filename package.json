@@ -1,0 +1,31 @@
+{
+  "name": "nft-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "truffle": "^5.4.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CashCowProject/nft-contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CashCowProject/nft-contracts/issues"
+  },
+  "homepage": "https://github.com/CashCowProject/nft-contracts#readme",
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.19"
+  }
+}
